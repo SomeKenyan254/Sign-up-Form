@@ -18,6 +18,7 @@ body{
     border: 3px solid black;
 
 }
+/*Styling the logo*/
 .logo{
     background-image:url(../Sign-up-Form/logo.png);
     background-size: 150px 150px;
