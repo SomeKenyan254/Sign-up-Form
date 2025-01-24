@@ -16,48 +16,66 @@
         </div>
     </div>
 
+
         
     
     <div class="content_container">
     <div class="header item">
-        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
-            <p>Sign up now to get started.</p>
-            <p>You know you want to.</p>
-        </p>
+       <div class="para">
+        <div class="para1">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+        </div>
+        <div class="para2">
+            Sign up now to get started.
+        </div>
+        <div class="para3">
+            You know you want to
+        </div>  
+        </div>
     </div>
     <div class="contact_info item">
         
         <form>
+    
         <fieldset>
             <div class="wrapper"> 
+            
                 <div class="row">
-
-                    <label for="first_name">First Name:</label>
-                    <input type="text" id="first_name" name="first_name">
-
-                    <label for="last_name">Last Name:</label>
-                <input type="text" id="last_name" name="last_name">
-                </div>
-
-            <div class="row">
+                    <div class="shape">
+                        <label for="first_name">First Name:</label>
+                        <input type="text" id="first_name" name="first_name" placeholder="Bob">
+                    </div>
+                    <div class="shape">
+                        <label for="last_name">Last Name:</label>
+                        <input type="text" id="last_name" name="last_name" placeholder="Cameron">
+                    </div>
+                </div> 
+                
+            
+                <div class="row">
+                    <div class="shape">
  
-            <label for="user_email">Email Address:</label>
-            <input type="email" id="user_email" name="email" placeholder="you@example.com">
-
+                        <label for="user_email">Email Address:</label>
+                        <input type="email" id="user_email" name="email" placeholder="you@example.com">
+                    </div>
           
+                    <div class="shape">
+                        <label for="phone_number">Phone Number:</label>
+                        <input type="tel" id="phone_number" name="phone_number" placeholder="+1-123-4562-123">
+                    </div>
+                </div>
+                
 
-            <label for="phone_number">Phone Number:</label>
-            <input type="tel" id="phone_number" name="phone_number" placeholder="+1-123-4562-123">
-
+            <div class="row ">
+                    <div class="shape">
+                        <label for="user_password">Password:</label>
+                        <input type="password" id="user_password" required/ name="user_password">
+                    </div>
+                    <div class="shape">
+                        <label for="confirm_password">Confirm Password:</label>
+                        <input type="password" id="confirm_password" required/ name="user_password">
+                    </div> 
             </div>
-
-            <div class="row">
-
-            <label for="user_password">Password:</label>
-            <input type="password" id="user_password" required/ name="user_password">
-
-           <label for="confirm_password">Confirm Password:</label>
-            <input type="password" id="confirm_password" required/ name="user_password">
             </div>
         </div>
 
@@ -68,14 +86,22 @@
 
                 
         </form>
-    </div>
+    
     <div class="log_in item" >
-        <button type="button">Create Account</button>
-        Already Have an Account?
-        <button type="button">Log in</button>
+        <div class="bottom">
+            <button type="button">Create Account</button>
+         </div>
+         <div class="bottom">
+
+           <p>Already Have an Account?</p>
+           <a href="">Login</a>
+        
+         </div>
 
     </div>
 </div>
 </div>
+
+
 </body>
 </html>

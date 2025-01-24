@@ -6,12 +6,12 @@
     font-style: normal;
 
 }
-* {
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     
-  }
+}
   
 body{
     height: 100vh;
@@ -25,6 +25,7 @@ body{
     min-width: 100vw;
     justify-content: center;
     padding: 2px;
+   
 
 }
 
@@ -34,18 +35,33 @@ body{
     display: flex;
     flex-direction: column;
     flex: 1;
-    
+}
+.bottom p{
+    font-size: 1.5rem;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
 }
 .item{
     flex: 1;
 }
+.para{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+
+}
+
 /*Styling the logo*/
 .logo{
    
     background-repeat: no-repeat;
     background-color: rgba(26, 26, 27, 0.591);
     font-family:'alex',Georgia, 'Times New Roman', Times, serif;
-    margin-top: 150px;
+    margin-top: 150px;/*Moves odin logo*/
     display: flex;
     color: white;
     justify-content:center ;
@@ -59,17 +75,20 @@ body{
    width: 800px;
    
 
-   
-  }
+}
+
+a{
+    font-size: 2rem;
+}
 .header{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
     font-size: large;
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    align-items: flex-end;
     
 }
+
 .contact_info{
     background-color: #ffffff;
     border-radius: 8px;
@@ -86,9 +105,10 @@ input {
     border-radius: 4px;
     box-sizing: border-box;
     background-color: #cbcbcb;
-    
-   
-  }
+}
+.shape{
+    display: flex;
+}
 label{
        
         font-size: 1rem;
@@ -96,37 +116,40 @@ label{
         margin-bottom: 5px;
         color: #555;
 }
-
-.row {
+.row{
     display: flex;
-    flex-wrap: nowrap;
-    gap: 40px;
+    justify-content: space-around;
+}
 
-    padding: 12px 20px;
-    
+.shape{
+   display: flex;
+   flex-direction: column; 
+   
 }
 
 fieldset{
     border: none;
+   
 }
 .wrapper{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    justify-content: space-between;
-    
-    margin: 50px;
+   display: flex;
+   flex-direction: column;
+   margin: 50px;
+   gap: 60px;
+   
 }
+/*style the login buttons*/
 .log_in {
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 20px; /* Space between the buttons */
     margin-top: 20px;
+    flex-direction: column;
+    padding: 30px;
   }
 
   .log_in button {
-    background-color: #007BFF; /* Primary blue color */
+    background-color: #3c5f23c4; /* Primary green color */
     color: white;
     border: none;
     border-radius: 4px;
