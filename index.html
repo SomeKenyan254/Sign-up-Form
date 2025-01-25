@@ -35,19 +35,19 @@
     </div>
     <div class="contact_info item">
         
-        <form>
+        <form action="#" method="get">
     
         <fieldset>
             <div class="wrapper"> 
             
                 <div class="row">
                     <div class="shape">
-                        <label for="first_name">First Name:</label>
-                        <input type="text" id="first_name" name="first_name" placeholder="Bob">
+                        <label for="first_name">*First Name:</label>
+                        <input type="text" id="first_name" name="first_name" pattern="^[^0-9]+$" placeholder="First:">
                     </div>
                     <div class="shape">
-                        <label for="last_name">Last Name:</label>
-                        <input type="text" id="last_name" name="last_name" placeholder="Cameron">
+                        <label for="last_name">*Last Name:</label>
+                        <input type="text" id="last_name" name="last_name" pattern="^[^0-9]+$" placeholder="Last:">
                     </div>
                 </div> 
                 
@@ -55,7 +55,7 @@
                 <div class="row">
                     <div class="shape">
  
-                        <label for="user_email">Email Address:</label>
+                        <label for="user_email">*Email:</label>
                         <input type="email" id="user_email" name="email" placeholder="you@example.com">
                     </div>
           
@@ -68,11 +68,11 @@
 
             <div class="row ">
                     <div class="shape">
-                        <label for="user_password">Password:</label>
+                        <label for="user_password">*Password:</label>
                         <input type="password" id="user_password" required/ name="user_password">
                     </div>
                     <div class="shape">
-                        <label for="confirm_password">Confirm Password:</label>
+                        <label for="confirm_password">*Confirm Password:</label>
                         <input type="password" id="confirm_password" required/ name="user_password">
                     </div> 
             </div>

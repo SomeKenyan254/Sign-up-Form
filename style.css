@@ -93,6 +93,8 @@ a{
     background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: flex-start;
     
     
     
@@ -101,10 +103,11 @@ a{
 input {
     font-size: 1rem;
     padding: 10px;
-    border: 1px solid #cf1919;
+    box-shadow: #555;
+   
     border-radius: 4px;
     box-sizing: border-box;
-    background-color: #cbcbcb;
+    background-color:#E5E7EB;
 }
 .shape{
     display: flex;
@@ -119,6 +122,7 @@ label{
 .row{
     display: flex;
     justify-content: space-around;
+    gap: 10px;
 }
 
 .shape{
@@ -162,3 +166,13 @@ fieldset{
    
   }
 
+
+input:invalid{
+    border:2px solid red;
+}
+
+
+input:focus{
+    border: #555;
+    background-color: azure;
+}
